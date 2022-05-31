@@ -1,0 +1,49 @@
+body { 
+  margin: 0;
+}
+
+.home-page { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1ec8aa;
+  height: 100vh;
+  width: 100vw;
+}
+
+.block {
+  height: 200px;
+  width: 400px;
+
+  position: absolute;     /*絕對位置*/
+  top: 40%;               /*從上面開始算，下推 50% (一半) 的位置*/
+  left:55%;              /*從左邊開始算，右推 50% (一半) 的位置*/
+  margin-top: -100px;     /*高度的一半*/
+  margin-left: -200px;    /*寬度的一半*/
+}
+
+.text1{
+  position: absolute;     /*絕對位置*/
+  top: 200%;               /*從上面開始算，下推 50% (一半) 的位置*/
+  left:76%;              /*從左邊開始算，右推 50% (一半) 的位置*/
+  margin-top: -100px;     /*高度的一半*/
+  margin-left: -200px;    /*寬度的一半*/
+}
+
+.text2{
+  position: absolute;     /*絕對位置*/
+  top: 220%;               /*從上面開始算，下推 50% (一半) 的位置*/
+  left:76%;              /*從左邊開始算，右推 50% (一半) 的位置*/
+  margin-top: -100px;     /*高度的一半*/
+  margin-left: -200px;    /*寬度的一半*/
+}
+
+.logo {
+  width: 300px;
+}
+
+.thumbnail {
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+}
