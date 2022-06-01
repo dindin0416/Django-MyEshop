@@ -1,3 +1,4 @@
 # django_myeshop
 
-https://django-myeshop.herokuapp.com/
+heroku :　https://django-myeshop.herokuapp.com/
+google app engine : https://myeshop-django.df.r.appspot.com/
